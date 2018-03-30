@@ -1,0 +1,82 @@
+body {
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align:center;
+	width: 100%;
+    background-color:aliceblue;
+}
+img {
+  height: 350px;
+  width: 550px; 
+}
+
+footer nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+footer p{
+    padding: 0 20px;
+    margin:20px;
+}
+header .row {
+  display: flex;
+  align-items: center;
+}
+.h{
+    background:url(images/bg_1.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center bottom;
+	padding: 300px 0;                          
+	margin: 10px;                              
+	text-shadow: 2px 6px 10px #000000;  
+    text-align:center;
+}
+.h p{
+    font-size: 1.5rem
+}
+.ddd {
+  border-radius: 4px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color:fuchsia;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.ddd:hover {
+  color: blue;
+  background-color:greenyellow;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background: url('images/bg_4.jpeg')no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: auto;
+  color: #fff;
+  margin-bottom: 4rem;
+}
+
+.jumbotron h3 {
+  margin: auto;
+  color: #fff;
+    margin-bottom: 3rem
+}
+section .row img {
+  margin: 0 0 50px;
+  width: 80%;
+}
+
